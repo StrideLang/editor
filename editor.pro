@@ -10,6 +10,7 @@ QT += webenginewidgets
 include(../config.pri)
 
 SOURCES += main.cpp\
+    localmanagementdialog.cpp \
     projectwindow.cpp \
     codeeditor.cpp \
     languagehighlighter.cpp \
@@ -24,6 +25,7 @@ SOURCES += main.cpp\
     autocompletemenu.cpp
 
 HEADERS  += \
+    localmanagementdialog.hpp \
     projectwindow.h \
     codeeditor.h \
     languagehighlighter.h \
@@ -38,6 +40,7 @@ HEADERS  += \
     autocompletemenu.hpp
 
 FORMS    += \
+    localmanagementdialog.ui \
     projectwindow.ui \
     configdialog.ui \
     savechangeddialog.ui \
