@@ -39,7 +39,7 @@
 #include <QObject>
 
 #include "stride/parser/ast.h"
-#include "stridesystem.hpp"
+#include "stride/codegen/stridesystem.hpp"
 
 class CodeModel : public QObject {
   Q_OBJECT
